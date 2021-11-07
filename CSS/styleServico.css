@@ -97,16 +97,10 @@ nav{
     border-radius: 3px;
 }
 
-/* #menu ul li{ 
-    margin: 25px;
-    padding: 5px;
-    max-width: 300px;
-} */
-
 /*COMEÇA CORPO DA PÁGINA*/
 
 section{
-    color: black;
+    /* color: black; */
     padding: 0px;
    /* background-image: url('../image/img-02.jpg');
     background-size: cover;*/
@@ -119,17 +113,14 @@ section{
     text-align: center;
     background-size: cover;
     color: black;
-    background-image: url('../image/img-02.jpg');
+    background-image: url('../image/img-01.jpg');
     height: calc(100vh - 140px);
 }
 
-#tInicio{
-    font-size: 50px;
+#textoInicio{
+    font-size: 40px;
 }
 
-#subInicio{
-    font-size: 30px;
-}
 /*Começa serviço*/
 /*Título Principal de Serviços*/
 h1{
@@ -153,65 +144,33 @@ h1{
 }
 
 #totalServico{
-    background-color:rgb(226, 225, 223);
+    background-color:white;
 }
 
 .servicos{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
     justify-content: space-between;
-    text-align: center;
+    /* text-align: center;  */
     max-width: 1140px;
     margin: 0 auto;
     padding-top: 80px;
-    
 }
+
 .servico{
-    max-width: 340px;
-    border-style: hidden;
+    display: block;
     width: 100%;
     height: 175px;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-around; */
+}
+
+.tService{
+    text-align: center;
+    font-size: 25px;
 }
 
 .sDesc{
+    margin-top: 10px;
     font-size: 15px;
-}
-
-/* SOBRE NÓS */
-
-.sobre{
-    text-align: center;
-    padding: 80px;
-    background-color: white
-}
-
-#titleSobre{
-    font-size: 20px;
-}
-
-#txtSobre{
-    font-size: 15px;
-}
-
-.descSobre{
-    max-width: 1140px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    /* padding: 80px; */
-    width: 100%;
-    align-items: center;
-    line-height: 40px;
-    
-}
-
-.descSobre img{
-    max-width: 350px;
-    height: 350px;
-    margin-right: 35px;
 }
 
 /* RODAPÉ */
